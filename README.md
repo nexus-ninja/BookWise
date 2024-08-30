@@ -16,7 +16,6 @@
 - **Backend**: Django
 - **Testing**: PyUnit
 - **CI/CD**: Jenkins, Docker, Kubernetes, Ansible
-- **Monitoring & Logging**: ELK Stack (Elasticsearch, Logstash, Kibana)
 - **Programming Language**: Python
 
 ## Project Highlights
