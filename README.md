@@ -88,3 +88,96 @@ BookWise utilizes two robust CI/CD pipelines to automate the deployment process:
    ```bash
    git clone https://github.com/YourUsername/BookWise.git
    cd BookWise/frontend
+2. **Install Dependencies**
+
+    ```bash
+    npm install
+
+3. **Run Development Server**
+
+   ```bash
+    npm run dev
+
+###Backend Setup
+
+1. **Clone the Backend Repository**
+
+    ```bash
+    git clone https://github.com/YourUsername/BookWise.git
+    cd BookWise/backend
+
+2. **Create and Activate Virtual Environment**
+
+    ```bash
+    python3 -m venv venv
+    source venv/bin/activate
+
+3. **Install Dependencies**
+
+    ```bash
+    pip install -r requirements.txt
+
+4. **Run Flask Server**
+
+    ```bash
+    flask run
+
+## Usage
+
+1. **Ensure Both Servers are Running**
+   - Frontend at `http://localhost:3000`
+   - Backend at `http://localhost:5000`
+
+2. **Access the Application**
+
+   Open your web browser and navigate to `http://localhost:3000`.
+
+3. **Explore Features**
+   - **Browse** the comprehensive book catalog.
+   - **Use** the recommendation feature by entering a book name to get personalized suggestions.
+
+## Project Demonstration
+
+### Home Page
+
+![Home Page](screenshots/home_page.png)
+
+The home page displays an extensive catalog of books, allowing users to browse and explore different genres.
+
+### Recommendation Page
+
+![Recommendation Page](screenshots/recommendation_page.png)
+
+The recommendation page provides personalized book suggestions based on user input, leveraging the machine learning model.
+
+## Limitations and Future Scope
+
+### Limitations
+
+- **Scalability of the Machine Learning Model**: May not efficiently handle rapid increases in data volume.
+- **Lack of Advanced Filtering**: Limited options for refining searches based on specific criteria.
+- **User Interface Customization**: Minimal customization options may not meet all user preferences.
+- **Internationalization**: Currently limited to English language support.
+
+### Future Scope
+
+- **Enhancing the Machine Learning Model**: Implementing advanced algorithms and deep learning techniques.
+- **Introducing More Personalized Features**: Allowing users to customize their reading experience further.
+- **Expansion to New Markets**: Adding multi-language support and regional book selections.
+- **Social Features**: Integrating book clubs, reading groups, and user forums.
+- **Integration with Educational Tools**: Collaborating with educational platforms for enhanced learning experiences.
+- **Adaptive User Interfaces**: Developing interfaces that adapt to individual devices and accessibility needs.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. **Fork the Repository**
+
+   Click on the 'Fork' button at the top right corner of the repository page.
+
+2. **Clone Your Fork**
+
+   ```bash
+   git clone https://github.com/YourUsername/BookWise.git
+
