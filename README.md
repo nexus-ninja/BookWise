@@ -11,11 +11,7 @@ BookWise is an innovative online book repository and recommendation system desig
 - [System Configuration](#system-configuration)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Demonstration](#project-demonstration)
 - [Limitations and Future Scope](#limitations-and-future-scope)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Features
 
