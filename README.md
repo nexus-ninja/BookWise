@@ -1,37 +1,90 @@
 # BookWise
 
-## Overview
+BookWise is an innovative online book repository and recommendation system designed to enhance the literary journey of readers by tailoring suggestions to their unique tastes and preferences. The platform leverages advanced technologies and follows CI/CD best practices to ensure a seamless and efficient user experience.
 
-**BookWise** is an online book repository platform designed to provide users with access to a wide range of books and book recommendations. The platform leverages advanced technologies and follows CI/CD best practices to ensure a seamless and efficient user experience.
+## Table of Contents
+
+- [Features](#features)
+- [Architecture](#architecture)
+- [Technologies Used](#technologies-used)
+- [CI/CD Pipelines](#cicd-pipelines)
+- [System Configuration](#system-configuration)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Demonstration](#project-demonstration)
+- [Limitations and Future Scope](#limitations-and-future-scope)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
 ## Features
 
-- **Book Repository**: Access a comprehensive collection of books across various genres.
-- **Personalized Recommendations**: Get book suggestions tailored to your preferences using Collaborative Filtering.
-- **Continuous Integration/Continuous Deployment (CI/CD)**: Robust and automated pipelines for consistent and reliable software updates.
+- **Comprehensive Book Catalogue**: Browse an extensive list of books across various genres.
+- **Personalized Recommendations**: Receive book suggestions tailored to your preferences using a custom machine learning model.
+- **User-Friendly Interface**: Enjoy a responsive and intuitive interface optimized for all devices.
+- **Backend Efficiency**: Experience fast and secure data processing with a robust backend.
+- **Scalable Architecture**: Benefit from a modular design that allows for easy maintenance and scalability.
+
+## Architecture
+
+The architecture of BookWise is structured into three essential layers:
+
+1. **Frontend**: Developed using **React** with **Vite**, providing a modern and efficient foundation for building a responsive user interface.
+2. **Backend**: Built with **Flask** and utilizes **CORS** to manage cross-origin requests, ensuring robust and secure handling of application logic and data processing.
+3. **Machine Learning Model**: A custom-built Python model that analyzes user preferences and past interactions to recommend books users are likely to enjoy.
 
 ## Technologies Used
 
-- **Frontend**: React.js
-- **Backend**: Django
-- **Testing**: PyUnit
-- **CI/CD**: Jenkins, Docker, Kubernetes, Ansible
-- **Programming Language**: Python
+- **Frontend Framework**: React with Vite
+- **Backend Framework**: Flask with CORS
+- **Machine Learning Model**: Python-based Collaborative Filtering
+- **Programming Languages**: Python, JavaScript
+- **Version Control**: GitHub
+- **CI/CD Tools**: Jenkins, Docker, Kubernetes, Ansible
+- **Containerization**: Docker and Docker Compose
+- **Orchestration**: Kubernetes
+- **Configuration Management and IaC**: Ansible
+- **Testing**: pytest for backend, Jest for frontend
 
-## Project Highlights
+## CI/CD Pipelines
 
-### Recommendation Systems
+BookWise utilizes two robust CI/CD pipelines to automate the deployment process:
 
-Implemented a Collaborative Filtering algorithm to provide personalized book recommendations based on user preferences and interaction data.
+### Pipeline 1
 
-### CI/CD Pipelines
+- **Tools Used**: Jenkins, Docker, Docker-Compose, Ansible
+- **Description**: Responsible for building, testing, and deploying the application using Docker and Docker-Compose. Ansible automates the configuration and management of the deployment environment.
 
-Established two robust CI/CD pipelines to automate the deployment process:
+### Pipeline 2
 
-1. **Pipeline 1**:
-   - **Tools Used**: Jenkins, Docker, Docker-Compose, Ansible
-   - **Description**: This pipeline is responsible for building, testing, and deploying the application using Docker and Docker-Compose. Ansible is used for configuration management and orchestration.
+- **Tools Used**: Jenkins, Docker, Kubernetes
+- **Description**: Focuses on container orchestration using Kubernetes, ensuring the application is scalable and resilient by managing containerized applications across a cluster of machines.
 
-2. **Pipeline 2**:
-   - **Tools Used**: Jenkins, Docker, Kubernetes
-   - **Description**: This pipeline focuses on container orchestration using Kubernetes. It ensures the application is scalable and resilient by managing containerized applications across a cluster of machines.
+## System Configuration
+
+- **Operating System**: Ubuntu LTS 20.04
+- **CPU and RAM**: 8-core processor with 8GB RAM
+- **Kernel Version**: 6.2.15
+- **Python Version**: 3.x
+- **Development Tools**:
+  - **Frontend**: Vite, Node.js
+  - **Backend**: Virtualenv, Flask
+- **DevOps Tools**: GitHub, Jenkins, Docker, Docker Compose, Ansible, Kubernetes
+- **Testing Tools**: pytest, Jest
+
+## Installation
+
+### Prerequisites
+
+- **Node.js** and **npm** installed
+- **Python 3.x** installed
+- **Docker** and **Docker Compose** installed
+- **Git** installed
+
+### Frontend Setup
+
+1. **Clone the Frontend Repository**
+
+   ```bash
+   git clone https://github.com/YourUsername/BookWise.git
+   cd BookWise/frontend
