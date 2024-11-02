@@ -136,20 +136,6 @@ BookWise utilizes two robust CI/CD pipelines to automate the deployment process:
    - **Browse** the comprehensive book catalog.
    - **Use** the recommendation feature by entering a book name to get personalized suggestions.
 
-## Project Demonstration
-
-### Home Page
-
-![Home Page](screenshots/home_page.png)
-
-The home page displays an extensive catalog of books, allowing users to browse and explore different genres.
-
-### Recommendation Page
-
-![Recommendation Page](screenshots/recommendation_page.png)
-
-The recommendation page provides personalized book suggestions based on user input, leveraging the machine learning model.
-
 ## Limitations and Future Scope
 
 ### Limitations
@@ -181,3 +167,22 @@ Contributions are welcome! Please follow these steps:
    ```bash
    git clone https://github.com/YourUsername/BookWise.git
 
+3. **Create a New Branch**
+
+    ```bash
+    git checkout -b feature/YourFeatureName
+
+4. **Make Your Changes**
+
+Implement your feature or bug fix.
+
+5. **Commit and Push**
+
+    ```bash
+    git add .
+    git commit -m "Add Your Commit Message"
+    git push origin feature/YourFeatureName
+
+6. **Create a Pull Request**
+
+   Navigate to your forked repository on GitHub and click 'Compare & pull request'.
